@@ -136,5 +136,22 @@ cor.test(df8$crt_score, df8$randomness_score)
 #correlation = -0.18 
 
 # No significant correlation found 
+write_csv(df8, "final_data_ready.csv")
+
+#
+#People with higher CRT scores tended to have slightly lower randomness scores — i.e., they may have over-corrected or tried to be too random — but this relationship was weak and not statistically significant.
+
+#What It Does Mean:
+#There might be a small trend, but it's not strong enough to rule out randomness as the cause.
+
+#Could indicate a subtle cognitive bias or individual difference in how high-CRT scorers simulate randomness.
+
+#What It Doesn’t Mean:
+#CRT and randomness intuition are unrelated — you just didn’t get strong evidence in this sample.
+
+#With a bigger sample or more precise metrics, this correlation could sharpen.
+"
+
+
 
 
